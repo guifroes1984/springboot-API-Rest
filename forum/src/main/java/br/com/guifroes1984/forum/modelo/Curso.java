@@ -8,6 +8,15 @@ public class Curso {
 	private String nome;
 	private String categoria;
 
+	public Curso() {
+	}
+
+	public Curso(String nome, String categoria) {
+		super();
+		this.nome = nome;
+		this.categoria = categoria;
+	}
+
 	public Long getId() {
 		return id;
 	}
